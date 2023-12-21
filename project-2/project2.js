@@ -110,7 +110,7 @@ class MeshDrawer {
 		/**
 		 * @Task2 : You should update this function to handle the lighting
 		 */
-		gl.uniform3fv(this.lightPosLoc, [lightX, lightY, 1]); 
+		gl.uniform3fv(this.lightPosLoc, [lightX, lightY, -10]); 
 		
 
 		///////////////////////////////
